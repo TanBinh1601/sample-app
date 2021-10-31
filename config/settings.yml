@@ -2,3 +2,7 @@ validate:
   length:
     max_200: 200
     min_2: 2
+
+size:
+  s_80: 80
+  s_50: 50
