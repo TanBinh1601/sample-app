@@ -5,6 +5,8 @@ vi:
     help: "Trợ giúp"
     sign_up: "Đăng kí"
     login: "Đăng nhập"
+    edit_user: "Chỉnh sửa người dùng"
+    all_user: "Tất cả người dùng"
   static_pages:
     home:
       hello: "Chào thế giới"
@@ -42,8 +44,17 @@ vi:
       logout: "Đăng xuất"
       remember: "Hãy nhớ tôi trên máy tính này"
       check_fails: "Email/mật khẩu không hợp lệ"
-  flash:
-    user_not_found: "Không tìm thấy người dùng"
+    update:
+      td: "Cập nhật hồ sơ của bạn"
+      save: "Lưu thay đổi"
+      delete: "Xóa bỏ"
+      you_sure: "Bạn chắc chứ?"
   session:
     create: "Tạo Session"
     destroy: "Xóa Session"
+  flash:
+    user_not_found: "Không tìm thấy người dùng"
+    profile_updated: "Đã cập nhật hồ sơ"
+    user_deleted: "Đã xóa người dùng"
+    delete_fail: "Xóa không thành công!"
+    please_login: "Vui lòng đăng nhập."
