@@ -6,3 +6,5 @@ validate:
 size:
   s_80: 80
   s_50: 50
+
+check: "1"
