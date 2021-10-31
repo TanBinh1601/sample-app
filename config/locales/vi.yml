@@ -4,6 +4,7 @@ vi:
     home: "Trang chủ"
     help: "Trợ giúp"
     sign_up: "Đăng kí"
+    login: "Đăng nhập"
   static_pages:
     home:
       hello: "Chào thế giới"
@@ -32,5 +33,15 @@ vi:
       pass: "Mật khẩu"
       pass_confir: "Nhập lại mật khẩu"
       create: "Tạo tài khoản của tôi"
+    login:
+      new_user: "Người dùng mới?"
+      user: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
   flash:
     user_not_found: "Không tìm thấy người dùng"
+  session:
+    create: "Tạo Session"
+    destroy: "Xóa Session"
