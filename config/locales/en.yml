@@ -5,6 +5,8 @@ en:
     help: "Help"
     sign_up: "Sign up"
     login: "Log in"
+    edit_user: "Edit user"
+    all_user: "All users"
   static_pages:
     home:
       hello: "Hello world"
@@ -42,8 +44,31 @@ en:
       logout: "Logout"
       remember: "Remember me on this computer"
       check_fails: "Invalid email/password combination"
-  flash:
-    user_not_found: "User not found"
+      forgot_pass: "(forgot password)"
+    update:
+      td: "Update your profile"
+      save: "Save changes"
+      delete: "Delete"
+      you_sure: "You sure?"
+      activate: "Activate"
   session:
     create: "Session create"
     destroy: "Session destroy"
+  flash:
+    user_not_found: "User not found"
+    profile_updated: "Profile updated"
+    user_deleted: "User deleted"
+    delete_fail: "Delete fail!"
+    please_login: "Please log in."
+    account_activation: "Account activation"
+    check_email_acti: "Account not activated.
+          Check your email for the activation link."
+    account_activated: "Account activated!"
+    invalid_activation_link: "Invalid activation link"
+    please_check_email: "Please check your email to activate your account."
+    email_sent: "Email sent with password reset instructions"
+    email_not_found: "Email address not found"
+    pass_reset_has_expired: "Password reset has expired."
+    micropost_created: "Micropost created!"
+    micropost_deleted: "Micropost deleted"
+
