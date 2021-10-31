@@ -4,6 +4,7 @@ en:
     home: "Home"
     help: "Help"
     sign_up: "Sign up"
+    login: "Log in"
   static_pages:
     home:
       hello: "Hello world"
@@ -32,5 +33,15 @@ en:
       pass: "Password"
       pass_confir: "Confirmation"
       create: "Create my account"
+    login:
+      new_user: "New User?"
+      user: "User"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Logout"
   flash:
     user_not_found: "User not found"
+  session:
+    create: "Session create"
+    destroy: "Session destroy"
