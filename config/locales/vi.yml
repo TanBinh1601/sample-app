@@ -7,6 +7,8 @@ vi:
     login: "Đăng nhập"
     edit_user: "Chỉnh sửa người dùng"
     all_user: "Tất cả người dùng"
+    reset_pass: "Đặt lại mật khẩu"
+    forgot_pass: "Quên mật khẩu"
   static_pages:
     home:
       hello: "Chào thế giới"
@@ -44,6 +46,7 @@ vi:
       logout: "Đăng xuất"
       remember: "Hãy nhớ tôi trên máy tính này"
       check_fails: "Email/mật khẩu không hợp lệ"
+      forgot_pass: "(quên mật khẩu)"
     update:
       td: "Cập nhật hồ sơ của bạn"
       save: "Lưu thay đổi"
@@ -65,3 +68,11 @@ vi:
     account_activated: "Tài khoản đã được kích hoạt!"
     invalid_activation_link: "Liên kết kích hoạt không hợp lệ"
     please_check_email: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+    email_sent: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+    email_not_found: "Không tìm thấy địa chỉ email"
+    pass_reset_has_expired: "Đặt lại mật khẩu đã hết hạn."
+    pass_has_been_reset: "Mật khẩu đã được đặt lại."
+    cant_be_empty: "không thể để trống"
+  button:
+    submit: "Nộp"
+    update_pass: "Cập nhật mật khẩu"

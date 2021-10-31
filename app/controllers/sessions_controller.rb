@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
 
     if user.activated
       log_in user
-      params[:session][:remember_me] == Settings.check ? remember(user) : forget(user)
+      check_remember user
       redirect_back_or user
     else
       flash[:warning] = t "flash.check_email_acti"
@@ -19,5 +19,10 @@ class SessionsController < ApplicationController
   def destroy
     log_out if logged_in?
     redirect_to root_url
+  end
+
+  def check_remember user
+    par = params[:session]
+    par[:remember_me] == Settings.check ? remember(user) : forget(user)
   end
 end
