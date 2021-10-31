@@ -40,6 +40,8 @@ vi:
       profile: "Hồ sơ"
       settings: "Cài đặt"
       logout: "Đăng xuất"
+      remember: "Hãy nhớ tôi trên máy tính này"
+      check_fails: "Email/mật khẩu không hợp lệ"
   flash:
     user_not_found: "Không tìm thấy người dùng"
   session:

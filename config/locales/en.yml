@@ -40,6 +40,8 @@ en:
       profile: "Profile"
       settings: "Settings"
       logout: "Logout"
+      remember: "Remember me on this computer"
+      check_fails: "Invalid email/password combination"
   flash:
     user_not_found: "User not found"
   session:
