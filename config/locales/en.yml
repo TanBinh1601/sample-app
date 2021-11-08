@@ -3,6 +3,7 @@ en:
     pages: "Ruby on Rails Tutorial Sample App"
     home: "Home"
     help: "Help"
+    sign_up: "Sign up"
   static_pages:
     home:
       hello: "Hello world"
@@ -24,3 +25,12 @@ en:
   language:
     vi: "Vietnamese"
     en: "English"
+  user:
+    new:
+      name: "Name"
+      email: "Gmail"
+      pass: "Password"
+      pass_confir: "Confirmation"
+      create: "Create my account"
+  flash:
+    user_not_found: "User not found"

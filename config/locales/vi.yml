@@ -3,6 +3,7 @@ vi:
     pages: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
     home: "Trang chủ"
     help: "Trợ giúp"
+    sign_up: "Đăng kí"
   static_pages:
     home:
       hello: "Chào thế giới"
@@ -24,3 +25,12 @@ vi:
   language:
     vi: "Tiếng Việt"
     en: "Tiếng Anh"
+  user:
+    new:
+      name: "Tên"
+      email: "Gmail"
+      pass: "Mật khẩu"
+      pass_confir: "Nhập lại mật khẩu"
+      create: "Tạo tài khoản của tôi"
+  flash:
+    user_not_found: "Không tìm thấy người dùng"
