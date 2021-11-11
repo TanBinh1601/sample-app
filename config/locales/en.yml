@@ -5,6 +5,8 @@ en:
     help: "Help"
     sign_up: "Sign up"
     login: "Log in"
+    edit_user: "Edit user"
+    all_user: "All users"
   static_pages:
     home:
       hello: "Hello world"
@@ -42,8 +44,17 @@ en:
       logout: "Logout"
       remember: "Remember me on this computer"
       check_fails: "Invalid email/password combination"
-  flash:
-    user_not_found: "User not found"
+    update:
+      td: "Update your profile"
+      save: "Save changes"
+      delete: "Delete"
+      you_sure: "You sure?"
   session:
     create: "Session create"
     destroy: "Session destroy"
+  flash:
+    user_not_found: "User not found"
+    profile_updated: "Profile updated"
+    user_deleted: "User deleted"
+    delete_fail: "Delete fail!"
+    please_login: "Please log in."
