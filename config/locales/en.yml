@@ -49,6 +49,7 @@ en:
       save: "Save changes"
       delete: "Delete"
       you_sure: "You sure?"
+      activate: "Activate"
   session:
     create: "Session create"
     destroy: "Session destroy"
@@ -58,3 +59,10 @@ en:
     user_deleted: "User deleted"
     delete_fail: "Delete fail!"
     please_login: "Please log in."
+    account_activation: "Account activation"
+    check_email_acti: "Account not activated.
+          Check your email for the activation link."
+    account_activated: "Account activated!"
+    invalid_activation_link: "Invalid activation link"
+    please_check_email: "Please check your email to activate your account."
+

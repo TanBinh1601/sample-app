@@ -49,6 +49,7 @@ vi:
       save: "Lưu thay đổi"
       delete: "Xóa bỏ"
       you_sure: "Bạn chắc chứ?"
+      activate: "Kích hoạt"
   session:
     create: "Tạo Session"
     destroy: "Xóa Session"
@@ -58,3 +59,9 @@ vi:
     user_deleted: "Đã xóa người dùng"
     delete_fail: "Xóa không thành công!"
     please_login: "Vui lòng đăng nhập."
+    account_activation: "Kích hoạt tài khoản"
+    check_email_acti: "Tài khoản chưa được kích hoạt.
+          Hãy kiểm tra email của bạn để biết liên kết kích hoạt."
+    account_activated: "Tài khoản đã được kích hoạt!"
+    invalid_activation_link: "Liên kết kích hoạt không hợp lệ"
+    please_check_email: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản của bạn."
