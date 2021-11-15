@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'password_resets/new'
+  get 'password_resets/edit'
   scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/ do
     root "static_pages#home"
 
@@ -13,5 +15,6 @@ Rails.application.routes.draw do
 
     resources :users
     resources :account_activations, only: :edit
+    resources :password_resets, only: [:new, :create, :edit, :update]
   end
 end

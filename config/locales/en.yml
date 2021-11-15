@@ -7,6 +7,8 @@ en:
     login: "Log in"
     edit_user: "Edit user"
     all_user: "All users"
+    reset_pass: "Reset password"
+    forgot_pass: "Forgot password"
   static_pages:
     home:
       hello: "Hello world"
@@ -44,6 +46,7 @@ en:
       logout: "Logout"
       remember: "Remember me on this computer"
       check_fails: "Invalid email/password combination"
+      forgot_pass: "(forgot password)"
     update:
       td: "Update your profile"
       save: "Save changes"
@@ -65,4 +68,12 @@ en:
     account_activated: "Account activated!"
     invalid_activation_link: "Invalid activation link"
     please_check_email: "Please check your email to activate your account."
+    email_sent: "Email sent with password reset instructions"
+    email_not_found: "Email address not found"
+    pass_reset_has_expired: "Password reset has expired."
+    pass_has_been_reset: "Password has been reset."
+    cant_be_empty: "can't be empty"
+  button:
+    submit: "Submit"
+    update_pass: "Update password"
 
