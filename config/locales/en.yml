@@ -53,6 +53,7 @@ en:
       delete: "Delete"
       you_sure: "You sure?"
       activate: "Activate"
+    view_my_profile: "view my profile"
   session:
     create: "Session create"
     destroy: "Session destroy"
@@ -73,7 +74,21 @@ en:
     pass_reset_has_expired: "Password reset has expired."
     pass_has_been_reset: "Password has been reset."
     cant_be_empty: "can't be empty"
+    micropost_created: "Micropost created!"
+    micropost_deleted: "Micropost deleted"
+    micropost_invalid: "Micropost invalid"
   button:
     submit: "Submit"
     update_pass: "Update password"
+  micropost:
+    post: "Post"
+    new_micropost: "Compose new micropost..."
+    time_post: "Posted %{time} ago."
+    image_size_limit: "Maximum file size is 5MB. Please choose a smaller file."
+    microposts_tt: "Microposts"
+  activerecord:
+    errors:
+      messages:
+        image_format: "must be a valid image format"
+        image_size_limit: "must be less than 5MB"
 

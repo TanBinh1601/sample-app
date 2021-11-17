@@ -53,6 +53,7 @@ vi:
       delete: "Xóa bỏ"
       you_sure: "Bạn chắc chứ?"
       activate: "Kích hoạt"
+    view_my_profile: "xem hồ sơ của tôi"
   session:
     create: "Tạo Session"
     destroy: "Xóa Session"
@@ -73,6 +74,20 @@ vi:
     pass_reset_has_expired: "Đặt lại mật khẩu đã hết hạn."
     pass_has_been_reset: "Mật khẩu đã được đặt lại."
     cant_be_empty: "không thể để trống"
+    micropost_created: "Đã tạo micropost!"
+    micropost_deleted: "Micropost đã bị xóa"
+    micropost_invalid: "Micropost không hợp lệ"
   button:
     submit: "Nộp"
     update_pass: "Cập nhật mật khẩu"
+  micropost:
+    post: "Đăng bài"
+    new_micropost: "Soạn micropost mới ..."
+    time_post: "Đã đăng %{time} trước."
+    image_size_limit: "Kích thước tệp tối đa là 5MB. Vui lòng chọn tệp nhỏ hơn."
+    microposts_tt: "Bài đăng"
+  activerecord:
+    errors:
+      messages:
+        image_format: "phải là một định dạng hình ảnh hợp lệ"
+        image_size_limit: "phải nhỏ hơn 5MB"

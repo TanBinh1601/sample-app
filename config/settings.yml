@@ -2,9 +2,11 @@ validate:
   length:
     max_200: 200
     min_2: 2
-
+    max_140: 140
 size:
   s_80: 80
   s_50: 50
 
 check: "1"
+
+image_format: "image/jpeg,image/gif,image/png"
